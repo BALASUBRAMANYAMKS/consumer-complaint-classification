@@ -230,27 +230,33 @@ The notebook includes comprehensive visualizations:
 ### Project Execution Screenshots
 
 #### 1. Notebook Execution Overview
-![Notebook Overview](screenshots/notebook_overview.png)
+<img width="1920" height="1080" alt="Screenshot 2025-10-19 233555" src="https://github.com/user-attachments/assets/e87da8ae-994c-456f-a239-ff351dbde89d" />
+
 *Main notebook with all cells executed and results displayed*
 
 #### 2. Model Performance Results
-![Model Performance](screenshots/model_performance.png)
+<img width="1700" height="1014" alt="Screenshot 2025-10-19 233730" src="https://github.com/user-attachments/assets/e1ab159e-fd99-404a-aa39-edc83da7b8ee" />
+
 *Showing 99.90% ANN accuracy and 98.67% LightGBM accuracy*
 
 #### 3. Training Progress
-![Training Progress](screenshots/training_progress.png)
+<img width="1644" height="992" alt="Screenshot 2025-10-19 233804" src="https://github.com/user-attachments/assets/94e3403d-b065-4ea0-b387-b4766e661217" />
+
 *ANN training progress with 46 epochs completed*
 
 #### 4. Confusion Matrices
-![Confusion Matrices](screenshots/confusion_matrices.png)
+<img width="1264" height="1030" alt="Screenshot 2025-10-19 233924" src="https://github.com/user-attachments/assets/d14df28c-ba9b-4e72-969d-4e8cd3cb9371" />
+
 *Confusion matrix visualizations for all 4 models*
 
 #### 5. Performance Comparison Charts
-![Performance Charts](screenshots/performance_charts.png)
+<img width="1287" height="992" alt="Screenshot 2025-10-19 234004" src="https://github.com/user-attachments/assets/89a76a9a-5080-4542-9189-47748ea15b8b" />
+
 *Accuracy, Precision, Recall, and F1-Score comparisons*
 
 #### 6. LightGBM GPU Training
-![LightGBM GPU](screenshots/lightgbm_training.png)
+<img width="1320" height="994" alt="Screenshot 2025-10-19 234152" src="https://github.com/user-attachments/assets/b142489f-5156-4880-85d6-c72eba192b9e" />
+
 *LightGBM GPU-accelerated training completed in 4.76 minutes*
 
 **Note:** All screenshots include current date/time (October 19, 2025) and author information as per requirements.
@@ -306,3 +312,4 @@ This project is licensed under the MIT License.
 <p align="center">
   Made with ❤️ for the Machine Learning Community
 </p>
+
