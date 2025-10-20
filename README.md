@@ -12,7 +12,6 @@ A comprehensive machine learning project that automatically classifies consumer 
 - **Best Accuracy:** 99.90% (Artificial Neural Network)
 - **Dataset Size:** 1,321,283 consumer complaints
 - **GPU Acceleration:** LightGBM trained in just 4.76 minutes
-- **Production Ready:** All models saved and deployable
 
 ## 📊 Model Performance
 
@@ -41,7 +40,6 @@ Kaiburr/
 ├── README.md                                  # This file
 ├── requirements.txt                           # Python dependencies
 ├── .gitignore                                 # Git ignore rules
-├── screenshots/                               # Project execution screenshots
 └── complaints.csv                             # Dataset (download separately - see below)
 ```
 
@@ -198,23 +196,6 @@ pip install -r requirements.txt
 jupyter notebook complaint_classification_v2.ipynb
 ```
 
-### Load Trained Models
-```python
-import pickle
-import lightgbm as lgb
-from tensorflow import keras
-
-# Load preprocessing
-with open('tfidf_vectorizer.pkl', 'rb') as f:
-    tfidf = pickle.load(f)
-
-# Load models
-lgb_model = lgb.Booster(model_file='lightgbm_model.txt')
-ann_model = keras.models.load_model('ann_model.h5')
-
-# Make predictions
-prediction = ann_model.predict(preprocessed_data)
-```
 
 ## 📊 Visualizations
 
@@ -261,17 +242,6 @@ The notebook includes comprehensive visualizations:
 
 **Note:** All screenshots include current date/time (October 19, 2025) and author information as per requirements.
 
-## 🎯 Business Impact
-
-| Metric | Before (Manual) | After (Automated) | Improvement |
-|--------|----------------|-------------------|-------------|
-| Processing Time | 5 min/complaint | <1 sec | 99.7% ↓ |
-| Accuracy | 85-90% | 99.90% | +10-15% ↑ |
-| Throughput | 1,000/hour | 3.6M/hour | 3,600x ↑ |
-| Manual Effort | 100% | 5% | 95% ↓ |
-
-**Cost Savings:** Estimated 95% reduction in manual classification effort
-
 ## 🚀 Future Enhancements
 
 - [ ] **Ensemble Methods:** Combine ANN + LightGBM (expected 99.92-99.95%)
@@ -283,27 +253,21 @@ The notebook includes comprehensive visualizations:
 
 ## 📄 Documentation
 
-- **Detailed Report:** [Consumer_Complaint_Classification_Report.docx](Consumer_Complaint_Classification_Report.docx) (15 pages)
+- **Detailed Report:** [Consumer_Complaint_Classification_Report.docx](Consumer_Complaint_Classification_Report.docx)
 - **Notebook:** [complaint_classification_v2.ipynb](complaint_classification_v2.ipynb) (all results included)
 
 ## 👨‍💻 Author
 
-**MCA 9th Semester Student**
+**Balasubramanyam K S**
 - 🎓 Master of Computer Applications
-- 📧 [Your Email]
-- 🔗 [LinkedIn Profile]
-
-## 📝 License
-
-This project is licensed under the MIT License.
+- 📧 ksbala21056@gmail.com
+- 🔗 www.linkedin.com/in/ksb2003
 
 ## � Acknowledgments
 
 - **Consumer Financial Protection Bureau (CFPB)** for the dataset
 - **GitHub Copilot** for AI-assisted development
 - **Open-source community** for excellent libraries
-
----
 
 <p align="center">
   <b>⭐ If you found this project helpful, please consider giving it a star! ⭐</b>
@@ -312,4 +276,5 @@ This project is licensed under the MIT License.
 <p align="center">
   Made with ❤️ for the Machine Learning Community
 </p>
+
 
