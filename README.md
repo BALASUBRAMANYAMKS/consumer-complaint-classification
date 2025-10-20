@@ -263,11 +263,12 @@ The notebook includes comprehensive visualizations:
 - 📧 ksbala21056@gmail.com
 - 🔗 www.linkedin.com/in/ksb2003
 
-## � Acknowledgments
+##  Acknowledgments
 
 - **Consumer Financial Protection Bureau (CFPB)** for the dataset
 - **GitHub Copilot** for AI-assisted development
 - **Open-source community** for excellent libraries
+
 
 
 
