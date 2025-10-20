@@ -269,12 +269,5 @@ The notebook includes comprehensive visualizations:
 - **GitHub Copilot** for AI-assisted development
 - **Open-source community** for excellent libraries
 
-<p align="center">
-  <b>⭐ If you found this project helpful, please consider giving it a star! ⭐</b>
-</p>
-
-<p align="center">
-  Made with ❤️ for the Machine Learning Community
-</p>
 
 
